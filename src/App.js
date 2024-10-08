@@ -1,10 +1,9 @@
-import './App.css';
+import Body from "./components/Body";
 
+//root parent component
 function App() {
   return (
-    <div className="font-bold text-green-900">
-      Lets get started !!
-    </div>
+   <Body/>
   );
 }
 
